@@ -8,5 +8,20 @@ html {
 }
 
 .banner-content {
+  color: #fff;
+  text-shadow:  0 0 10px rgba(255, 255, 255, .7);
+}
 
+.btn {
+  padding: 1em 1em 1em 1em;
+}
+
+.btn:active {
+  padding-top: 1em;
+}
+
+.btn-wrapper a {
+  color: #b4fff4;
+  border-radius: 8px;
+  border-color: #90ccc3;
 }
