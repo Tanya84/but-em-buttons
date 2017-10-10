@@ -1,58 +1,48 @@
 html {
   font-family: "Ubuntu Condensed", sans-serif;
+  color: #fff;
 }
 
 .banner {
-  background: url("../images/starfield.png") repeat;
+  background-image: url("../images/starfield.png");
+  padding-top: 15em;
+  padding-bottom: 15em;
 }
 
 .banner-content {
-  color: #fff;
-  text-shadow: 0 0 10px rgba(255, 255, 255, .7);
+  text-shadow: 1px 1px 25px rgba(255, 255, 255, .7);
 }
 
 .btn:hover,
 .btn:focus {
+  padding: 1em;
   color: #b4fff4;
-  background-color: rgba(180, 255, 244, .2);
   border-color: #90ccc3;
   transition: all 250ms ease;
+  background-color: rgba(180, 255, 244, .2);
+}
+
+.icon {
+  transition: all 250ms ease;
+  bottom: .15em;
+}
+
+.btn {
+  transition: all 250ms ease;
+  border-radius: 5px;
 }
 
 .btn:active {
-  padding-top: 1em;
+  top: 1.5em;
   transform: translate(0, .25em);
-}
-
-.btn-wrapper a {
-  color: #b4fff4;
-  border-radius: 8px;
-  border-color: #90ccc3;
-}
-
-.btn-wrapper a:hover {
-  background-color: rgba(180, 255, 244, .2);
-  border-color: #90ccc3;
-  color: #b4fff4;
-}
-
-.btn-wrapper a:active,
-.btn-wrapper a:focus {
-  background-color: rgba(180, 255, 244, .2);
-  color: #b4fff4;
-  border-color: #90ccc3;
-}
-
-.btn-ghost {
-  transition: all 250ms ease;
-  color: #b4fff4;
-  border-color: #b4fff4;
 }
 
 .btn-ghost:hover .icon {
   transform: translate(0, -.5em);
 }
 
-.icon {
+.btn-ghost {
+  color: #b4fff4;
+  border-color: #b4fff4;
   transition: all 250ms ease;
 }
